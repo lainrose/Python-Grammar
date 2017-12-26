@@ -35,6 +35,8 @@
 
 
 
-[Study01]:https://github.com/lainrose/Python-Grammar/Study/01_data_type_number.md
-[Study02]:https://github.com/lainrose/Python-Grammar/Study/02_data_type_string.md
-[Study03]:https://github.com/lainrose/Python-Grammar/Study/03_data_type_list.md
+
+
+[Study01]:https://github.com/lainrose/Python-Grammar/blob/master/Study/01_data_type_number.md
+[Study02]:https://github.com/lainrose/Python-Grammar/blob/master/Study/02_data_type_string.md
+[Study03]:https://github.com/lainrose/Python-Grammar/blob/master/Study/03_data_type_list.md
