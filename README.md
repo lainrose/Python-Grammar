@@ -9,9 +9,9 @@
 ### 점프 투 파이썬
 
 #### 1장. 자료형
-1. [01. 숫자형][Study01]
-2. [02. 문자열 자료형][Study02]
-3. [03. 리스트 자료형][Study03]
+1. [숫자형][Study01]
+2. [문자열자료형][Study02]
+3. [리스트자료형][Study03]
 
 #### 2장. 제어문
 
@@ -35,6 +35,6 @@
 
 
 
-[Study01]:https://github.com/lainrose/Python-Grammar/Study/01_숫자형.md
-[Study02]:https://github.com/lainrose/Python-Grammar/Study/02_문자열 자료형.md
-[Study03]:https://github.com/lainrose/Python-Grammar/Study/03_리스트 자료형.md
+[Study01]:https://github.com/lainrose/Python-Grammar/Study/01_data_type_number.md
+[Study02]:https://github.com/lainrose/Python-Grammar/Study/02_data_type_string.md
+[Study03]:https://github.com/lainrose/Python-Grammar/Study/03_data_type_list.md
