@@ -29,12 +29,11 @@
 14. [파일 읽고 쓰기][Study14]
 
 #### 4장. 클래스와 모듈, 예외 처리 및 파이썬 라이브러리
-15. [클래스][Study14]
-16. [모듈][Study14]
-17. [패키지][Study14]
-18. [예외 처리][Study14]
-19. [내장 함수][Study14]
-20. [외장 함수][Study14]
+15. [클래스][Study15]
+16. [모듈][Study16]
+17. [패키지][Study17]
+18. [예외 처리][Study18]
+19. [내장 함수][Study19]
 
 #### 5장. 간단한 스크립트 작성
 
@@ -56,6 +55,22 @@
 
 
 
-[Study01]:https://github.com/lainrose/Python-Grammar/blob/master/Study/01_data_type_number.md
-[Study02]:https://github.com/lainrose/Python-Grammar/blob/master/Study/02_data_type_string.md
-[Study03]:https://github.com/lainrose/Python-Grammar/blob/master/Study/03_data_type_list.md
+[Study01]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/01_numbers.md
+[Study02]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/02_strings.md
+[Study03]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/03_lists.md
+[Study04]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/04_tuples_and_sequences.md
+[Study05]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/05_dictionaries.md
+[Study06]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/06_sets.md
+[Study07]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/07_true_false.md
+[Study08]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/08_variable.md
+[Study09]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/09_if_statements.md
+[Study10]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/10_while_statement.md
+[Study11]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/11_for_statement.md
+[Study12]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/12_function.md
+[Study13]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/13_input_and_output.md
+[Study14]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/14_reading_and_writing_files.md
+[Study15]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/15_classes.md
+[Study16]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/16_modules.md
+[Study17]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/17_pakages.md
+[Study18]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/18_Exceptions.md
+[Study19]:https://github.com/lainrose/Python-Grammar/blob/master/Jump2Python/19_built_in_functions.md.md
