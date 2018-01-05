@@ -1,5 +1,5 @@
 ## 클래스
-- - -
+
 ```python
 class Calculator:
     def __init__(self):
