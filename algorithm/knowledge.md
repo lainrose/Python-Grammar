@@ -1,4 +1,14 @@
 ## 파이썬 알고리즘 풀면서 배운 유용한 문법
+#### 입력받기
+```python
+>>> import sys
+>>> sys.stdin.readline()
+>>> ...
+>>> input()
+>>> ...
+>>> raw_input()
+>>> ...
+```
 #### print, 은 공백이 생기는데 공백없이 출력하는 방법
 ```python
 >>> import sys
@@ -12,7 +22,7 @@
 ```python
 >>> [input() for i in range input()]
 
->>> map(input(), ['']*input())
+>>> map(raw_input, ['']*input())
 >>> 5
 >>> 1
 >>> 2
@@ -20,6 +30,10 @@
 >>> 4
 >>> 5
 >>> [1, 2, 3, 4, 5]
+
+>>> map(int,sys.stdin)
+
+>>> [sys.stdin.readline() for _ in '-'*input()]
 ```
 #### 정렬하기
 ##### 오름차순 정렬
@@ -57,4 +71,40 @@
 ```python
 >>> s = sorted
 >>> s(list)
+```
+#### 숫자앞에 0붙여서 출력하기
+```python
+>>> a = [1,10,100]
+>>> for i in a:
+>>>     print '%02d'%(i)
+>>> 01
+>>> 10
+>>> 100
+```
+#### dict 정렬
+```python
+>>> a = {2:1,1:2,3:4,7:1}
+>>> print sorted(a.items(), key=lambda x:x[0])
+>>> [(1,2),(2,1),(3,4),(7,1)]
+```
+#### dict를 tuple of list 변환 후 reduce
+```python
+reduce(lambda sum,(x,y):sum + x*y, a.items(),0)
+```
+#### sum()함수 내장
+```python
+>>> sum(1,2)
+>>> 3
+```
+#### sorted 할 대상이 엄청 크지 않을경우
+```python
+>>> import sys
+>>> print '\n'.join(sorted(map(str,sys.stdin)))
+>>> print '\n'.join(sorted([sys.stdin.readline() for _ in '-'*input()]))
+```
+#### 정렬한 후에 카운팅값이 1개인지 2개이상인지 확인
+```python
+>>> 1%len(array)
+# 개수가 2개이면 무조건 1뜨기 때문에 array[1]이고
+# 개수가 1개이면 1%1 = 0되서 무조건 array[0]
 ```
