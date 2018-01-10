@@ -108,3 +108,9 @@ reduce(lambda sum,(x,y):sum + x*y, a.items(),0)
 # 개수가 2개이면 무조건 1뜨기 때문에 array[1]이고
 # 개수가 1개이면 1%1 = 0되서 무조건 array[0]
 ```
+#### 해당 이터레이블한 객체안에 원하는 요소가 모두있거나 그 중 1개라도 있는지 확인
+```python
+>>> items = 'a', 'b', 'c'
+>>>if all(i in L for i in items):
+>>>if any(i in L for i in items):
+ ```python
